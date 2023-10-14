@@ -6,7 +6,11 @@ module.exports = {
       "./templates/*.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+        fontFamily: {
+            'sans': ['Inria Sans', 'ui-sans-serif', 'sans-serif']
+        }
+    },
   },
   plugins: [],
 }

@@ -79,5 +79,6 @@ async function copyDirectory(sourcePath, destinationPath, level) {
     await importTemplates();
     await createDest();
     await copyDirectory(srcPath, destPath, 0);
-    await copyDirectory('static', destPath, 0);
+    await fs.cp('static', destPath, {recursive: true})
+    //await copyDirectory('static', destPath, 0);
 })()

@@ -9,6 +9,9 @@ module.exports = {
     extend: {
         fontFamily: {
             'sans': ['Inria Sans', 'ui-sans-serif', 'sans-serif']
+        },
+        width: {
+            'fullWmargin': "calc(100% - 16px)"
         }
     },
   },

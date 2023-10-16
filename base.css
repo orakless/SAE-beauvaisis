@@ -1,3 +1,171 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#ActH4 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.ActContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ActButRow{
+    display: flex;
+    flex-direction: column;
+}
+
+.ActImage-button {
+    padding: 0.5em 1em;
+    border: 0.05em solid grey;
+    box-shadow: 0em 0.2em 0.25em grey;
+    border-radius: 0.25em;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.ActImage-button img {
+    max-width: 5.25em;
+    margin-right: 0.85em;
+    border-radius: 0.25em;
+    margin-left: -2em;
+    margin-top: -5em;
+    margin-bottom: -5em;
+    box-shadow: 0em 0.2em 0.25em grey;
+}
+
+.ActImage-button span {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 3em;
+}
+
+.TourImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.TourImg img {
+    max-width: 50em;
+    border-radius: 1em;
+    box-shadow: 0em 0.2em 0.25em grey;
+}
+
+.TourServ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+
+.TourServImages {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+}
+
+.TourServImages div {
+    padding-right: 2em;
+    align-items: center;
+}
+
+.TourServImages img {
+    max-width: 10em;
+}
+
+.TourServImages p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+.TourCathe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.TourCatheP{
+    font-size: 0.7em;
+}
+
+.TourCatheImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2em;
+}
+
+.TourCatheImg img {
+    max-width: 20em;
+    border-radius: 1em;
+    margin-right: 3em;
+    margin-left: 2em;
+}
+
+.blue-text {
+    color: #0EA5E9;
+    font-weight: bold;
+}
+
+.TourSite {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.TourSiteText {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+
+.TourSite img {
+    max-width: 8em;
+}
+
+.TourInfos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    margin-right: 5em;
+}
+
+.TourInfosHorraires {
+
+}
+
+.TourInfosAdresse {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5em;
+    margin-top: 2em;
+    margin-right: 2em;
+    max-width: 4em;
+}

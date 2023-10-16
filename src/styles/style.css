@@ -712,7 +712,7 @@ video {
   font-size: 2em;
 }
 
-.Container {
+.ActContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -723,7 +723,7 @@ video {
   flex-direction: column;
 }
 
-.image-button {
+.ActImage-button {
   padding: 0.5em 1em;
   border: 0.05em solid grey;
   box-shadow: 0em 0.2em 0.25em grey;
@@ -735,7 +735,7 @@ video {
   margin-right: 2em;
 }
 
-.image-button img {
+.ActImage-button img {
   max-width: 5.25em;
   margin-right: 0.85em;
   border-radius: 0.25em;
@@ -745,7 +745,7 @@ video {
   box-shadow: 0em 0.2em 0.25em grey;
 }
 
-.image-button span {
+.ActImage-button span {
   font-size: 1.2em;
   font-weight: bold;
   margin-right: 3em;

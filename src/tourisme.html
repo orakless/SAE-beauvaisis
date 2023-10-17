@@ -9,69 +9,70 @@
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body class="flex flex-col h-full gap-2 text-neutral-800">
+<body class="flex flex-col h-full">
 {{ Header }}
-<div id="main-content" class="flex flex-col grow p-2 gap-8">
-    <div class="TourImg">
-        <img src="/img/Beauvais_Cathdrale_Beauvais_2021cVisitBeauvais_2-min-scaled.jpg">
-    </div>
 
-    <div class="TourServ">
-        <p>Services proposés par notre Office de tourisme</p>
-        <div class="TourServImages">
-            <div>
-                <img src="/img/icone_info.png">
-                <p>Renseignements</p>
-            </div>
-            <div>
-                <img src="/img/icone_wifi.png">
-                <p>Wifi gratuit</p>
-            </div>
-            <div>
-                <img src="/img/icone_boutique.png">
-                <p>Boutique</p>
-            </div>
+<div class="flex justify-center items-center m-2">
+    <img class="max-w-7xl rounded drop-shadow" src="/img/Beauvais_Cathdrale_Beauvais_2021cVisitBeauvais_2-min-scaled.jpg">
+</div>
+
+<div class="flex flex-col justify-center items-center text-base mt-2 mr-2">
+    <p>Services proposés par notre Office de tourisme</p>
+    <div class="flex flex-row m-2">
+        <div class="pr-3 items-center">
+            <img class="max-w-4xl" src="/img/icone_info.png">
+            <p class="text-base font-bold">Renseignements</p>
         </div>
-    </div>
-
-    <div class="TourInfos">
-        <div class="TourInfosHorraires">
-            <p>Horaires d’ouverture :<br>
-            Lundi : 14h-18h<br>
-            Mardi-Samedi : 9h30-12h30 et 13h30-18h</p>
-
-            <p>Seulement entre avril et octobre<br>
-            Dimanche et jours fériés : 10h-13h et 14h-17h30</p>
+        <div class="pr-3 items-center">
+            <img class="max-w-4xl" src="/img/icone_wifi.png">
+            <p class="text-base font-bold">Wifi gratuit</p>
         </div>
-        <div class="TourInfosAdresse">
-            <img src="/img/Logo-OTF-centenaire.png">
-            <p>Nous nous trouvons au<br>
-                1, rue Beauregard<br>
-                60000 Beauvais Cedex<br>
-                Tél : 03 44 15 30 30<br>
-                Fax : 03 44 15 30 31</p>
-        </div>
-    </div>
-
-    <div class="TourCathe">
-        <div class="TourCatheImg">
-            <img src="/img/Cathédrale_Saint-Pierre_de_Beauvais_(1).jpg">
-            <div>
-                <p>Un des joyaux de notre agglomération est la cathédrale Saint Pierre. Cette cathédrale gothique a pu voir ses travaux commencer en 1225 et s’achever en 1272.</p>
-                <br><p>Se trouvant à la<span class="blue-text"> rue St-Pierre</span> de Beauvais, vous pourrez la visiter <b>gratuitment</b>.</p>
-            </div>
-        </div>
-       <p class="TourCatheP">Pour toute information complémentaire merci d’appeler le 03 44 48 11 60 ou de directement venir à l’office de tourisme</p>
-    </div>
-
-    <div class="TourSite">
-        <img src="/img/visitbeauvais-V01.3.png">
-        <div class="TourSiteText">
-            <p>Pour réserver une chambre d’hôtel ou obtenir plus d’information sur les moyens de se déplacer, vous pouvez vous rendre sur notre site</p>
-            <a href="https://www.visitbeauvais.fr" class="blue-text"> visitbeauvais.fr</a>
+        <div class="pr-3 items-center">
+            <img class="max-w-4xl" src="/img/icone_boutique.png">
+            <p class="text-base font-bold">Boutique</p>
         </div>
     </div>
 </div>
+
+<div class="flex flex-row justify-center items-center text-base mr-5">
+    <div>
+        <p>Horaires d’ouverture :<br>
+        Lundi : 14h-18h<br>
+        Mardi-Samedi : 9h30-12h30 et 13h30-18h</p>
+
+        <p>Seulement entre avril et octobre<br>
+        Dimanche et jours fériés : 10h-13h et 14h-17h30</p>
+    </div>
+    <div class="flex flex-row justify-center items-center text-base mt-2 mr-2 max-w-0">
+        <img src="/img/Logo-OTF-centenaire.png">
+        <p>Nous nous trouvons au<br>
+            1, rue Beauregard<br>
+            60000 Beauvais Cedex<br>
+            Tél : 03 44 15 30 30<br>
+            Fax : 03 44 15 30 31</p>
+    </div>
+</div>
+
+
+<div class="flex flex-col justify-center items-center text-base mt-2 mr-2">
+    <div class="flex justify-center items-center flex-row m-2">
+        <img class="max-w-3xl rounded mr-3 ml-2" src="/img/Cathédrale_Saint-Pierre_de_Beauvais_(1).jpg">
+        <div>
+            <p>Un des joyaux de notre agglomération est la cathédrale Saint Pierre. Cette cathédrale gothique a pu voir ses travaux commencer en 1225 et s’achever en 1272.</p>
+            <br><p>Se trouvant à la<span class="font-bold text-sky-500"> rue St-Pierre</span> de Beauvais, vous pourrez la visiter <b>gratuitment</b>.</p>
+        </div>
+    </div>
+   <p class="text-base">Pour toute information complémentaire merci d’appeler le 03 44 48 11 60 ou de directement venir à l’office de tourisme</p>
+</div>
+
+<div class="flex flex-row justify-center items-center text-2xl mt-2 mr-2">
+    <img class="max-w-2xl" src="/img/visitbeauvais-V01.3.png">
+    <div class="text-left justify-center items-center text-base">
+        <p>Pour réserver une chambre d’hôtel ou obtenir plus d’information sur les moyens de se déplacer, vous pouvez vous rendre sur notre site</p>
+        <a href="https://www.visitbeauvais.fr" class="blue-text"> visitbeauvais.fr</a>
+    </div>
+</div>
+
 {{ Footer }}
 </body>
 </html>

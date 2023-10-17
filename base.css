@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .btn-fill {
+        @apply font-black bg-sky-500 hover:bg-sky-600 active:bg-sky-700 px-3 py-0.5 text-white rounded-xl
+    }
+
+    .btn-fill-white {
+        @apply font-black bg-white hover:bg-sky-100 active:bg-sky-200 px-3 py-0.5 text-neutral-800 rounded-xl
+    }
+
+
+}
+
 #ActH4 {
     text-align: center;
     font-size: 2em;

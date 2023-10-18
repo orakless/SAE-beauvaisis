@@ -11,68 +11,95 @@
 </head>
 <body class="h-full flex flex-col">
 {{ Header }}
+<div id="main-content" class="p-2">
+<h6 class="text-center text-2xl mb-4">Actualités de l’agglomération</h6>
 
-<br>
-
-<h6 class="text-center text-2xl">Actualités de l’agglomération</h6>
-
-<br>
-
-<div class="flex justify-center items-center">
-    <div class="flex flex-col">
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-    </div>
-    <div class="flex flex-col">
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-    </div>
-    <div class="flex flex-col">
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-        <button class="p-2 border border-gray-400 drop-shadow rounded-md flex items-center content-center mt-2 mr-2">
-            <img class="max-w-0 mr-1 rounded drop-shadow mr" src="/img/img-test.png" alt="Image de l'article">
-            <span class="text-base font-bold mr-3">My article, its title<br>Le 01 janvier 1979</span>
-        </button>
-    </div>
+<div class="grid grid-cols-3 justify-center items-center mx-auto w-full max-w-4xl gap-x-4 gap-y-6">
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title</span><br>Le 01 janvier 1979
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+    <button class="flex flex-row h-20 shadow rounded-xl items-center">
+        <img class="max-w-[6rem] max-h-[6rem] -ml-[0.5rem] -mt-[0.25rem] mr-2 rounded-xl shadow" src="/img/img-test.png" alt="Image de l'article">
+        <span class="text-base font-bold">My article, its title<br>Le 01 janvier 1979</span>
+    </button>
+</div>
 </div>
 
 

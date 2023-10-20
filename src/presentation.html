@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <title>Présentation - Beauvaisis.fr</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/leaflet.css">
+    <script src="/scripts/leaflet.js"></script>
+    <script src="/scripts/script.js" defer></script>
+    <script src="/scripts/map.js" defer></script>
+</head>
+<body class="flex flex-col">
+{{ Header }}
+
+<div class="flex flex-col md:flex-row justify-center items-center gap-4 max-w-4xl w-full m-auto p-3">
+    <p class="text-xl"><span class="text-2xl font-bold">L’agglo du Beauvaisis</span><br>
+        Nous sommes une communauté d’agglomération constituée de <span class="text-sky-500 font-bold"> 56 communes</span> de l’Oise Picarde.<br><br>
+
+        Notre siège se situe à <span class="text-sky-500 font-bold">Beauvais</span>, qui est aussi la ville la plus peuplée de l’agglomération.<br>
+        Nous comptons actuellement <span class="text-sky-500 font-bold">103 934 habitants </span> l’ensemble de l’agglomération.
+    </p>
+    <div id="map" class="w-full h-96 rounded-xl">
+        <div id="shadow" class="absolute shadow-inner h-full w-full pointer-events-none z-[1001]"></div>
+    </div>
+</div>
+
+
+<p class="text-center text-2xl font-bold m-3">Le conseil communautaire (2020-2026)</p>
+
+<div class="flex flex-col rounded-lg justify-center mx-auto max-w-fit w-full border-2 border-gray-300">
+    <img class="max-w-[16rem] rounded-lg m-3" src="/img/Caroline_Cayeux.jpg">
+    <p class="pl-1 text-xl m-3"><span class="font-bold">Cayeux Caroline</span><br>Présidente du conseil</p>
+</div>
+
+
+<div class="grid grid-cols-1 md:grid-cols-3 justify-center items-center mx-auto max-w-7xl w-full">
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">HÉDIN Gérard</span><br>Chargé de l’aménagement du territoire</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">LEJEUNE Béatrice</span><br>Chargée de la gestion des déchets</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">DORIDAM Jacques</span><br>Chargé des transports</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">LEFEBVRE Brigitte</span><br>Chargée de l’équilibre social</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">CORDIER Dominique</span><br>Chargé de la prévention des risques</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">DUFOUR Jean-François</span><br>Chargé du tourisme</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">DEBIL-CAUX Victor</span><br>Chargé de l’environnement</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">DEKKERS Hans</span><br>Chargé de l’assainissement</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">BARBARAS Loïc</span><br>Chargé du développement économique</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">BOURLEAU Aymeric</span><br>Chargé de l’enseignement supérieur</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">SALITOT Antoine</span><br>Chargé de la culture</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">TABARY Christophe</span><br>Chargé de l’animation du territoire</p>
+    </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 justify-center items-center mx-auto md:max-w-3xl w-full mb-2">
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">COLIGNON Charlotte</span><br>Chargée de la santé et de la petite enfance</p>
+    </div>
+    <div class="rounded-lg justify-center items-center border-2 border-gray-300 m-2">
+        <p class="pl-1 text-xl m-3"><span class="font-bold">SAHNOUN Ali</span><br>Chargé des équipements sportifs</p>
+    </div>
+</div>
+
+
+
+
+{{ Footer }}
+</body>
+</html>

@@ -47,22 +47,16 @@ function changeFocusBtn(index: number) {
 
 const items: carrousselItem[] = [
     {
-        previewImg: "/img/article-1.jpg",
-        title: "Article 1 !",
-        url: "/articles/nouvelles-brochures-office.html",
+        previewImg: "/img/Conseil18dec19.jpg",
+        title: "Imaginer le territoire de l'Agglo du Beauvaisis à l'horizon 2035",
+        url: "/article2035.html",
         color: "fill-sky-500"
     },
     {
-        previewImg: "/img/article-1.jpg",
-        title: "Article 2 !",
-        url: "/articles/nouvelles-brochures-office.html",
+        previewImg: "/img/image_atelier.jpg",
+        title: "La fresque du climat s'ouvre aux associations et aux entreprises",
+        url: "/articleCLIMAT.html",
         color: "fill-emerald-500"
-    },
-    {
-        previewImg: "/img/article-1.jpg",
-        title: "Article 3 !",
-        url: "/articles/nouvelles-brochures-office.html",
-        color: "fill-red-500"
     }
 ]
 
